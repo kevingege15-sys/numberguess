@@ -28,11 +28,11 @@ def easy():
 def medium():
     number = random.randrange(1, 101)
     chance = 0
-    while chance < 10:
+    while chance < 5:
         try:
             print("\nGOOD! YOU HAVE SELECTED EASY DIFFICULTY")
             print("LET'S START THE GAME")
-            print("YOU HAVE 10 CHANCE TO ANSWER")
+            print("YOU HAVE 5 CHANCE TO ANSWER")
             guess = int(input("GUESS NUMBER 1-100: "))
             if guess == number:
                 print(f"CONGRATULATIONS!! You guessed the correct number in {chance} attempts.")
@@ -51,11 +51,11 @@ def medium():
 def hard():
     number = random.randrange(1, 101)
     chance = 0
-    while chance < 10:
+    while chance < 3:
         try:
             print("\nGOOD! YOU HAVE SELECTED EASY DIFFICULTY")
             print("LET'S START THE GAME")
-            print("YOU HAVE 10 CHANCE TO ANSWER")
+            print("YOU HAVE 3 CHANCE TO ANSWER")
             guess = int(input("GUESS NUMBER 1-100: "))
             if guess == number:
                 print(f"CONGRATULATIONS!! You guessed the correct number in {chance} attempts.")
@@ -96,3 +96,4 @@ def play():
             print(e)
 play()
             
+
