@@ -15,3 +15,7 @@ A simple Python-based game where the player tries to guess the number randomly c
 3. Run the program with:
    ```bash
    python game.py
+
+## 🔗 Project Page
+This project is part of [Number Guessing Game on roadmap.sh](https://roadmap.sh/projects/number-guessing-game)
+
